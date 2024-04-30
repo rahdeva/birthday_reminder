@@ -14,6 +14,7 @@
 		040830262BE0F16700663028 /* BirthdayReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040830252BE0F16700663028 /* BirthdayReminderTests.swift */; };
 		040830302BE0F16700663028 /* BirthdayReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408302F2BE0F16700663028 /* BirthdayReminderUITests.swift */; };
 		040830322BE0F16700663028 /* BirthdayReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040830312BE0F16700663028 /* BirthdayReminderUITestsLaunchTests.swift */; };
+		0408303F2BE0F1B000663028 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408303E2BE0F1B000663028 /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0408302B2BE0F16700663028 /* BirthdayReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0408302F2BE0F16700663028 /* BirthdayReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayReminderUITests.swift; sourceTree = "<group>"; };
 		040830312BE0F16700663028 /* BirthdayReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0408303E2BE0F1B000663028 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				040830162BE0F16500663028 /* ContentView.swift */,
 				040830182BE0F16700663028 /* Assets.xcassets */,
 				0408301A2BE0F16700663028 /* Preview Content */,
+				0408303E2BE0F1B000663028 /* Friend.swift */,
 			);
 			path = BirthdayReminder;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0408303F2BE0F1B000663028 /* Friend.swift in Sources */,
 				040830172BE0F16500663028 /* ContentView.swift in Sources */,
 				040830152BE0F16500663028 /* BirthdayReminderApp.swift in Sources */,
 			);
